@@ -16,6 +16,13 @@
         Việc dev trên 1 nhanh mới sẽ không ảnh hưởng gì tới những nhánh khác
     </p>
     <p>Gộp dữ liệu từ 1 branch</p>
-    <p>Ví dụ cần chuyển dữ liệu từ branch A sang branch master</p>
+    <p>Ví dụ cần chuyển dữ liệu từ branch A sang branch master. Điều kiện cần là dữ liệu trên nhánh A phải được commit(không cần push)</p>
+    <P>Sau đó ta tiến hành gộp dữ liệu như sau</P>
+    <p><i>git checkout master</i></p>
+    <p><i>git merge A</i></p>
+    <p>Như vậy là tiến hành gộp dữ liệu từ nhánh A vào nhánh master thành công., sau đó ta có thể push lên</p>
+    <p><b>Xóa Branch</b></p>
+    <p><b>Lưu ý:</b> branch cần xóa phải được gộp dữ liệu về master</p>
+    <p>Ta sử dụng lệnh: <i>git branch -d ten_nhanh</i></p>
 </body>
 </html>

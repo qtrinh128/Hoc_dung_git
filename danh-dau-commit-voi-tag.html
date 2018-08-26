@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Đánh dấu commit với tag</title>
+</head>
+<body>
+    <h3>Đánh dấu commit với tag</h3>
+    <hr>
+    <p>Nếu có quá nhiều commit sẽ gây khó khăn nếu cần xem lại lần commit trước vì gắn tag cho commit sẽ rất hữu ích để tra cứu thông tin 1 các rõ dàng</p>
+    <p>Sử dụng lệnh: <i>git show ten_tag</i></p>
+    <p>Có hai loại tag</p>
+    <ul>
+        <li>Lightweight tag: Các tag này chỉ đơn thuần là đánh dấu các snapshot của mỗi commit</li>
+        <li>Annotated tag: Có thể đặt tiêu đề, và khi xem sẽ có thông tin về người tag và ngày tag</li>
+    </ul>
+    <p><b>Tạo lightweight tag</b></p>
+    <p>Trước tiên gõ: <i>git tag</i> để xem danh sách các tag có trong dự án</p>
+    <p>Để tạo 1 tag gõ lệnh: <i>git tag ten_tag</i></p>
+    <p><b>Lưu ý rằng sau khi gõ <i>git tag ten_tag</i> || Ví dụ: <i>git tag v1</i> thì lần commit cuối cùng tức lần commit trước khi tạo tag v1 sẽ được gắn vào v1</b></p>
+    <p><b>Tạo Annotated tag</b></p>
+    <p>Gõ: <i>git tag -a v1 -m "message"</i> để tạo tag v1 với lời nhắn message</p>
+    <p><b>Chú ý: mặc định khi push sẽ KHÔNG push các tag lên repository mà ta phải dùng lệnh: <i>git push --tags</i> để đẩy toàn bộ tag lên</b></p>
+    <p>Tag sẽ xuất hiện ở phần <b>releases</b></p>
+    <p><b>Nhập tag vào branch</b></p>
+</body>
+</html>

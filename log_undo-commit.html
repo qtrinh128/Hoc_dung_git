@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Log và Undo commmit</title>
+</head>
+<body>
+    <h3>Log và Undo commit</h3>
+    <hr>
+    <p><b>Log</b></p>
+    <p>Để xem lịch sử commit ta sử dụng lệnh: <i>git log</i></p>
+    <p>Một vài option</p>
+    <ul>
+        <li>Hiện thị chi tiết mỗi lần commit <i>git log -p</i></li>
+        <li>Để xem 1 lần commit gần nhất <i>git log -1</i></li>
+        <li>Xem commit của một người nào đó <i>git log --autho ten--nguoi-commit-nmuon-xem</i></li>
+    </ul>
+    <p><b>Lọc log với pretty</b></p>
+    <p>Sử dụng pretty rất hay nếu bạn muốn lọc chỉ những cái cần xem khi view log</p>
+    <p>Với câu lệnh: <i>git log --pretty "tag_name"</i></p>
+    <p>Danh sách các tag</p>
+    <ul>
+        <li>%H: Chỉ hiện commit hash</li>
+        <li>%h: rút ngắn của hash</li>
+        <li>%an: Tên người commit</li>
+        <li>%ae: Email commit</li>
+        <li>%s: Nội dung commit</li>
+        <li>...</li>
+
+    </ul>
+</body>
+</html>

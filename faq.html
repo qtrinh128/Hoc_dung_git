@@ -9,6 +9,25 @@
 <body>
     <h3>Home page</h3>
     <hr>
-    <p>Display home page</p>
+    <p><b>Staging Area</b></p>
+    <p>Trong <b>GIT</b> Staging area là một khu vực trung gian lưu trữ những thay đổi của chúng ta trên tệp tin (chỉnh sửa tệp tin) để có thể commit</p>
+    <p>Muốn commit thì bắt buộc tệp tin đó phải nằm trong Staging area</p>
+    <p>Để đưa 1 tệp tin vào Staging area thì ta dùng lệnh: <i>git add ten_file</i> hoặc <i>git add *</i> <b>*</b> là toàn bộ nội các tệp tin có sự thay đổi và đưa chúng vào Staging area</p>
+    <p>Một tệp tin nằm trong Staging sẽ có trạng thái là <b>Stagged</b></p>
+    <hr>
+    <p><b>Commmit</b></p>
+    <p>Hiểu đơn giản thì Commit nó sẽ lưu lại 1 bản snapshot những sự thay đổi trong tệp tin, thư mục. Lưu ý các tệp tin và thư mục này phải nằm trong Staging area</p>
+    <p>Mỗi lần lần commit nó sẽ lưu lại lịch sử chỉnh sửa, kèm theo tên và địa chỉ email của người commit</p>
+    <p>Để thực hiện commit ta sử dụng lệnh: <i>git commit -m "message"</i></p>
+    <p>Sau khi commit thì ta có thể push lên repository bằng lệnh: <i>git push origin master</i></p>
+    <p><b>Điều kiện để có thể commit 1 tệp tin</b></p>
+    <p>Cần đưa tệp tin đó vào trạng thái tracked bằng lệnh: <i>git add *</i></p>
+    <p><b>Lưu ý:</b>Tệp tin trong trạng thái tracked cũng sẽ có các trạng thái phụ khác</p>
+    <ul>
+        <li>Unmodified: Tệp tin chưa chỉnh sửa gì</li>
+        <li>Modified: Tệp tin đã được chỉnh sửa, ở trạng thái này ta sẽ không thể commit chúng, muốn commit trước tiên ta phải đưa nó về trạng thái tracked bằng lệnh: <i>git add *</i></li>
+        <li>Tracked: Tệp tin sẵn sàng đề commit</li>
+    </ul>
+    <p><b>Lưu ý: </b>ta có thể đưa một tệp tin đã được tracked để commit mà không cần đưa nó vào Staging area với tham số lênh <b>-a</b> trong lệnh: <i>git commit -a -m "message"</i></p>
 </body>
 </html>

@@ -13,3 +13,4 @@ doc/*.txt
 doc/**/*.txt
 # khong theo doi tep tin .png
 *.png
+*.jpg

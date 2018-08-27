@@ -12,4 +12,4 @@ doc/*.txt
 # bỏ qua tất cả tập .txt trong thư mục doc/
 doc/**/*.txt
 # khong theo doi tep tin .png
-*png
+*.png

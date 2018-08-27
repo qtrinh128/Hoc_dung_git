@@ -1,7 +1,4 @@
-<<<<<<< HEAD
 # them noi dung
 # Them noi dung mới vao file
 # Test noi dung
-=======
 # them noi dung
->>>>>>> 509c62631027d6a7675944f6475aa70743fa2ae1

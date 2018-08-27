@@ -2,3 +2,4 @@
 #  Bỏ qua tệp tin có đuôi .png
 *.png
 *.txt
+*.a

@@ -1,9 +1,9 @@
 module.exports = {
     mysql: {
-      host: 'localhost',
+      host: 'mysql',
       port: '3306',
       user: 'root',
-      password: '123123',
+      password: '12313123',
       database: 'fitisoft'
     }
   };

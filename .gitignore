@@ -7,6 +7,7 @@
 /TODO
 # bỏ qua tất cả tập tin trong thư mục build/
 build/
+env/
 # bỏ qua doc/notes.txt, không phải doc/server/arch.txt
 doc/*.txt
 # bỏ qua tất cả tập .txt trong thư mục doc/
